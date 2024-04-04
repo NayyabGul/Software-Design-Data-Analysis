@@ -112,4 +112,3 @@ def question4(fileName):
     # Enable grid for better readability of the plot
     plt.grid(True)
     plt.savefig('average_workweek_length.pdf', format='pdf')
-    plt.show()
