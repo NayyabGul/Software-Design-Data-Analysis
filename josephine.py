@@ -83,5 +83,5 @@ def question3(file):
     plt.ylabel('Average Value')
     plt.xticks(rotation=45)  # Rotate x-axis labels for better readability
     plt.tight_layout()
-    plt.savefig('job_type_data_plot.pdf', format='pdf')
+    plt.savefig('plot3.pdf', format='pdf')
     plt.show()
