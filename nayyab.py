@@ -43,7 +43,7 @@ def question2(fileName):
         except ValueError:
             print("Invalid input. Please enter a number.")
     # files we will be using
-    graphicsfile = "plot.pdf"  # Graphics file name
+    graphicsfile = "plot2.pdf"  # Graphics file name
     outputFile = "filtered_data.csv"  # Output file name
 
     # Open file
@@ -107,5 +107,4 @@ def question2(fileName):
     plt.title(title, pad=20)
     plt.xticks(rotation=45, ha='right')
     plt.tight_layout()
-
     fig.savefig(graphicsfile, bbox_inches="tight")
