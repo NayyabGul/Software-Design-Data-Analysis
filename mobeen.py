@@ -111,5 +111,4 @@ def question4(fileName):
     plt.xticks(years)
     # Enable grid for better readability of the plot
     plt.grid(True)
-    plt.savefig('average_workweek_length.pdf', format='pdf')
-    plt.show()
+    plt.savefig('plot4.pdf', format='pdf')
