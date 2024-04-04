@@ -120,7 +120,7 @@ def question1(fileName):
 
     plt.tight_layout()
 
-    plt.savefig('laborData.pdf', format='pdf')
+    plt.savefig('plot1.pdf', format='pdf')
 
     # Close files
     outputFile.close()
